@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA37962B1B5050C10090B838 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37962A1B5050C10090B838 /* AppDelegate.swift */; };
+		BA37962D1B5050C10090B838 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37962C1B5050C10090B838 /* ViewController.swift */; };
+		BA3796301B5050C10090B838 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA37962E1B5050C10090B838 /* Main.storyboard */; };
+		BA3796321B5050C10090B838 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA3796311B5050C10090B838 /* Assets.xcassets */; };
+		BA3796351B5050C10090B838 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3796331B5050C10090B838 /* LaunchScreen.storyboard */; };
+		BA3796401B5050C10090B838 /* ViandsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37963F1B5050C10090B838 /* ViandsTests.swift */; };
+		BA37964B1B5050C10090B838 /* ViandsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA37964A1B5050C10090B838 /* ViandsUITests.swift */; };
+		BA3796591B5056C50090B838 /* viands_startup_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3796581B5056C50090B838 /* viands_startup_logo.png */; };
+		BA37965B1B50589B0090B838 /* ic_call.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37965A1B50589B0090B838 /* ic_call.png */; };
+		BA37965D1B505C2B0090B838 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37965C1B505C2B0090B838 /* lock.png */; };
+		BA37965F1B507A650090B838 /* person.png in Resources */ = {isa = PBXBuildFile; fileRef = BA37965E1B507A650090B838 /* person.png */; };
+		BA3796611B507BE20090B838 /* mail.png in Resources */ = {isa = PBXBuildFile; fileRef = BA3796601B507BE20090B838 /* mail.png */; };
+		BA3796631B5080D80090B838 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA3796621B5080D80090B838 /* SignUpViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA37963C1B5050C10090B838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA37961F1B5050C10090B838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3796261B5050C10090B838;
+			remoteInfo = Viands;
+		};
+		BA3796471B5050C10090B838 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA37961F1B5050C10090B838 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA3796261B5050C10090B838;
+			remoteInfo = Viands;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA3796271B5050C10090B838 /* Viands.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viands.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37962A1B5050C10090B838 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA37962C1B5050C10090B838 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BA37962F1B5050C10090B838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA3796311B5050C10090B838 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA3796341B5050C10090B838 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA3796361B5050C10090B838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA37963B1B5050C10090B838 /* ViandsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViandsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37963F1B5050C10090B838 /* ViandsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViandsTests.swift; sourceTree = "<group>"; };
+		BA3796411B5050C10090B838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3796461B5050C10090B838 /* ViandsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViandsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA37964A1B5050C10090B838 /* ViandsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViandsUITests.swift; sourceTree = "<group>"; };
+		BA37964C1B5050C10090B838 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA3796581B5056C50090B838 /* viands_startup_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = viands_startup_logo.png; path = ../../../../Desktop/viands_startup_logo.png; sourceTree = "<group>"; };
+		BA37965A1B50589B0090B838 /* ic_call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ic_call.png; path = ../../../../Desktop/ic_call.png; sourceTree = "<group>"; };
+		BA37965C1B505C2B0090B838 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = lock.png; path = ../../../../Desktop/lock.png; sourceTree = "<group>"; };
+		BA37965E1B507A650090B838 /* person.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = person.png; path = ../../../../Desktop/person.png; sourceTree = "<group>"; };
+		BA3796601B507BE20090B838 /* mail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mail.png; path = ../../../../Desktop/mail.png; sourceTree = "<group>"; };
+		BA3796621B5080D80090B838 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA3796241B5050C10090B838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796381B5050C10090B838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796431B5050C10090B838 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA37961E1B5050C10090B838 = {
+			isa = PBXGroup;
+			children = (
+				BA3796291B5050C10090B838 /* Viands */,
+				BA37963E1B5050C10090B838 /* ViandsTests */,
+				BA3796491B5050C10090B838 /* ViandsUITests */,
+				BA3796281B5050C10090B838 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA3796281B5050C10090B838 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3796271B5050C10090B838 /* Viands.app */,
+				BA37963B1B5050C10090B838 /* ViandsTests.xctest */,
+				BA3796461B5050C10090B838 /* ViandsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA3796291B5050C10090B838 /* Viands */ = {
+			isa = PBXGroup;
+			children = (
+				BA37962A1B5050C10090B838 /* AppDelegate.swift */,
+				BA37962C1B5050C10090B838 /* ViewController.swift */,
+				BA3796621B5080D80090B838 /* SignUpViewController.swift */,
+				BA37962E1B5050C10090B838 /* Main.storyboard */,
+				BA3796581B5056C50090B838 /* viands_startup_logo.png */,
+				BA37965A1B50589B0090B838 /* ic_call.png */,
+				BA37965E1B507A650090B838 /* person.png */,
+				BA3796601B507BE20090B838 /* mail.png */,
+				BA37965C1B505C2B0090B838 /* lock.png */,
+				BA3796311B5050C10090B838 /* Assets.xcassets */,
+				BA3796331B5050C10090B838 /* LaunchScreen.storyboard */,
+				BA3796361B5050C10090B838 /* Info.plist */,
+			);
+			path = Viands;
+			sourceTree = "<group>";
+		};
+		BA37963E1B5050C10090B838 /* ViandsTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA37963F1B5050C10090B838 /* ViandsTests.swift */,
+				BA3796411B5050C10090B838 /* Info.plist */,
+			);
+			path = ViandsTests;
+			sourceTree = "<group>";
+		};
+		BA3796491B5050C10090B838 /* ViandsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA37964A1B5050C10090B838 /* ViandsUITests.swift */,
+				BA37964C1B5050C10090B838 /* Info.plist */,
+			);
+			path = ViandsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA3796261B5050C10090B838 /* Viands */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA37964F1B5050C20090B838 /* Build configuration list for PBXNativeTarget "Viands" */;
+			buildPhases = (
+				BA3796231B5050C10090B838 /* Sources */,
+				BA3796241B5050C10090B838 /* Frameworks */,
+				BA3796251B5050C10090B838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viands;
+			productName = Viands;
+			productReference = BA3796271B5050C10090B838 /* Viands.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA37963A1B5050C10090B838 /* ViandsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3796521B5050C20090B838 /* Build configuration list for PBXNativeTarget "ViandsTests" */;
+			buildPhases = (
+				BA3796371B5050C10090B838 /* Sources */,
+				BA3796381B5050C10090B838 /* Frameworks */,
+				BA3796391B5050C10090B838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA37963D1B5050C10090B838 /* PBXTargetDependency */,
+			);
+			name = ViandsTests;
+			productName = ViandsTests;
+			productReference = BA37963B1B5050C10090B838 /* ViandsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA3796451B5050C10090B838 /* ViandsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA3796551B5050C20090B838 /* Build configuration list for PBXNativeTarget "ViandsUITests" */;
+			buildPhases = (
+				BA3796421B5050C10090B838 /* Sources */,
+				BA3796431B5050C10090B838 /* Frameworks */,
+				BA3796441B5050C10090B838 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA3796481B5050C10090B838 /* PBXTargetDependency */,
+			);
+			name = ViandsUITests;
+			productName = ViandsUITests;
+			productReference = BA3796461B5050C10090B838 /* ViandsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA37961F1B5050C10090B838 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "One100 Solutions";
+				TargetAttributes = {
+					BA3796261B5050C10090B838 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 355Q8KK65Q;
+					};
+					BA37963A1B5050C10090B838 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BA3796261B5050C10090B838;
+					};
+					BA3796451B5050C10090B838 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = BA3796261B5050C10090B838;
+					};
+				};
+			};
+			buildConfigurationList = BA3796221B5050C10090B838 /* Build configuration list for PBXProject "Viands" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA37961E1B5050C10090B838;
+			productRefGroup = BA3796281B5050C10090B838 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA3796261B5050C10090B838 /* Viands */,
+				BA37963A1B5050C10090B838 /* ViandsTests */,
+				BA3796451B5050C10090B838 /* ViandsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA3796251B5050C10090B838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3796351B5050C10090B838 /* LaunchScreen.storyboard in Resources */,
+				BA37965B1B50589B0090B838 /* ic_call.png in Resources */,
+				BA37965D1B505C2B0090B838 /* lock.png in Resources */,
+				BA3796591B5056C50090B838 /* viands_startup_logo.png in Resources */,
+				BA3796321B5050C10090B838 /* Assets.xcassets in Resources */,
+				BA3796301B5050C10090B838 /* Main.storyboard in Resources */,
+				BA3796611B507BE20090B838 /* mail.png in Resources */,
+				BA37965F1B507A650090B838 /* person.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796391B5050C10090B838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796441B5050C10090B838 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA3796231B5050C10090B838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3796631B5080D80090B838 /* SignUpViewController.swift in Sources */,
+				BA37962D1B5050C10090B838 /* ViewController.swift in Sources */,
+				BA37962B1B5050C10090B838 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796371B5050C10090B838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA3796401B5050C10090B838 /* ViandsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA3796421B5050C10090B838 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA37964B1B5050C10090B838 /* ViandsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA37963D1B5050C10090B838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3796261B5050C10090B838 /* Viands */;
+			targetProxy = BA37963C1B5050C10090B838 /* PBXContainerItemProxy */;
+		};
+		BA3796481B5050C10090B838 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA3796261B5050C10090B838 /* Viands */;
+			targetProxy = BA3796471B5050C10090B838 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA37962E1B5050C10090B838 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA37962F1B5050C10090B838 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA3796331B5050C10090B838 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA3796341B5050C10090B838 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA37964D1B5050C10090B838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BA37964E1B5050C20090B838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA3796501B5050C20090B838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Viands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.Viands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA3796511B5050C20090B838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Viands/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.Viands;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA3796531B5050C20090B838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.ViandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viands.app/Viands";
+			};
+			name = Debug;
+		};
+		BA3796541B5050C20090B838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ViandsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.ViandsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viands.app/Viands";
+			};
+			name = Release;
+		};
+		BA3796561B5050C20090B838 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.ViandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Viands;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BA3796571B5050C20090B838 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ViandsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = One100Solutions.ViandsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Viands;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA3796221B5050C10090B838 /* Build configuration list for PBXProject "Viands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA37964D1B5050C10090B838 /* Debug */,
+				BA37964E1B5050C20090B838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA37964F1B5050C20090B838 /* Build configuration list for PBXNativeTarget "Viands" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3796501B5050C20090B838 /* Debug */,
+				BA3796511B5050C20090B838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA3796521B5050C20090B838 /* Build configuration list for PBXNativeTarget "ViandsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3796531B5050C20090B838 /* Debug */,
+				BA3796541B5050C20090B838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA3796551B5050C20090B838 /* Build configuration list for PBXNativeTarget "ViandsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA3796561B5050C20090B838 /* Debug */,
+				BA3796571B5050C20090B838 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BA37961F1B5050C10090B838 /* Project object */;
+}
